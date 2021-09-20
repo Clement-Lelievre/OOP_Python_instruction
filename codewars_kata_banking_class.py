@@ -2,7 +2,7 @@
 
 class User(object):
     '''A class managing some operations done by a bank client.
-    \nArguments: name, balance, and checking_account (boolean).'''
+    arguments: name, balance, and checking_account (boolean).'''
     def __init__(self, name, balance, checking_account,*args,**kwargs):
         self.name = name.lower().capitalize()
         self.balance = balance
